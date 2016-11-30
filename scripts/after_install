@@ -1,2 +1,2 @@
 #!/bin/bash
-service httpd start
+sudo cp /tmp/httpd.conf /etc/httpd/conf/httpd.conf
