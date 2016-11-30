@@ -1,3 +1,0 @@
-#!/bin/bash
-sudo mkdir /var/www/inc
-sudo aws s3 cp s3://owmbcodedeploybucket/dbinfo.inc /var/www/inc
