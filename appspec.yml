@@ -3,6 +3,8 @@ os: linux
 files:
   - source: source
     destination: /tmp/
+  - source: source/healthcheck.html
+    destination: /var/www/html/
 hooks:
   ApplicationStop:
     - location: scripts/stop_server
